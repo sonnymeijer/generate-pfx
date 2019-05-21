@@ -47,5 +47,5 @@ rm $DOMAIN.key
 rm $DOMAIN.crt
 rm $DOMAIN.ca
 
-echo -e "PFX for $DOMAIN is generated and saved to $PWD/$DOMAIN.pfx"
+echo -e "\nThe .pfx for $DOMAIN is generated and saved to $PWD/$DOMAIN.pfx"
 exit
