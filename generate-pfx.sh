@@ -7,7 +7,7 @@ read -e DOMAIN
 
 # create domain.key
 echo -e -n "\nIn the next window, paste the KEY for $DOMAIN. (save file with CTRL+X)"
-echo -e -n "\nContinue? [y/N] "
+echo -e -n "\nContinue? [y/N]: "
 read -e KEY
 if [[ $KEY =~ ^([yY][eE][sS]|[yY])$ ]]
 then
@@ -18,7 +18,7 @@ fi
 
 # create domain.crt
 echo -e -n "\nIn the next window, paste the CRT for $DOMAIN. (save file with CTRL+X)"
-echo -e -n "\nContinue? [y/N] "
+echo -e -n "\nContinue? [y/N]: "
 read -e CRT
 if [[ $CRT =~ ^([yY][eE][sS]|[yY])$ ]]
 then
@@ -29,7 +29,7 @@ fi
 
 # create domain.ca
 echo -e -n "\nIn the next window, paste the CA bundle for $DOMAIN. (save file with CTRL+X)"
-echo -e -n "\nContinue? [y/N] "
+echo -e -n "\nContinue? [y/N]: "
 read -e CA
 if [[ $CA =~ ^([yY][eE][sS]|[yY])$ ]]
 then
