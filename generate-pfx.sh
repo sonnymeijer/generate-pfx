@@ -5,9 +5,6 @@ echo -e -n "\nExample: domain.com or sub.domain.com"
 echo -e -n "\nDomain: "
 read -e DOMAIN
 
-test
-
-
 # create domain.key
 echo -e -n "\nIn the next window, paste the KEY for $DOMAIN. (save file with CTRL+X)"
 echo -e -n "\nContinue? [y/N]: "
